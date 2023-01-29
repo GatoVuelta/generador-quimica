@@ -25,7 +25,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
+    - run: dir
     - run: cd generador-quimica
+    - run: dir
     - run: npm install --global yarn
     - run: yarn
     - run: yarn build
