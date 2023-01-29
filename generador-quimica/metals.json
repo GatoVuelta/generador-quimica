@@ -1,0 +1,64 @@
+[
+    {"symbol": "Li", "name": "Litio", "oxStates": [1]},
+    {"symbol": "Na", "name": "Sodio", "oxStates": [1]},
+    {"symbol": "K", "name": "Potasio", "oxStates": [1]},
+    {"symbol": "Rb", "name": "Rubidio", "oxStates": [1]},
+    {"symbol": "Cs", "name": "Cesio", "oxStates": [1]},
+    {"symbol": "Fr", "name": "Francio", "oxStates": [1]},
+
+    {"symbol": "Be", "name": "Berilio", "oxStates": [2]},
+    {"symbol": "Mg", "name": "Magnesio", "oxStates": [2]},
+    {"symbol": "Ca", "name": "Calcio", "oxStates": [2]},
+    {"symbol": "Sr", "name": "Estroncio", "oxStates": [2]},
+    {"symbol": "Ba", "name": "Bario", "oxStates": [2]},
+    {"symbol": "Ra", "name": "Radio", "oxStates": [2]},
+
+    {"symbol": "Al", "name": "Aluminio", "oxStates": [3]},
+    {"symbol": "Ga", "name": "Galio", "oxStates": [3]},
+    {"symbol": "In", "name": "Indio", "oxStates": [3]},
+    {"symbol": "Tl", "name": "Talio", "oxStates": [3]},
+
+    {"symbol": "Sn", "name": "Estaño", "oxStates": [2, 4], "oxNames":{"min": "estañoso", "max": "estáñico"}},
+    {"symbol": "Pb", "name": "Plomo", "oxStates": [2, 4], "oxNames":{"min": "plomoso", "max": "plómico"}},
+
+    {"symbol": "Bi", "name": "Bismuto", "oxStates": [3, 5], "oxNames":{"min": "bismutoso", "max": "bismútico"}},
+
+    {"symbol": "Sc", "name": "Escandio", "oxStates": [3]},
+    {"symbol": "Y", "name": "Itrio", "oxStates": [3]},
+
+    {"symbol": "Ti", "name": "Titanio", "oxStates": [4]},
+    {"symbol": "Zr", "name": "Circonio", "oxStates": [4]},
+    {"symbol": "Hf", "name": "Hafnio", "oxStates": [4]},
+
+    {"symbol": "V", "name": "Vanadio", "oxStates": [5]},
+    {"symbol": "Nb", "name": "Niobio", "oxStates": [5]},
+    {"symbol": "Ta", "name": "Tantalio", "oxStates": [5]},
+
+    {"symbol": "Cr", "name": "Cromo", "oxStates": [2, 3, 6], "oxNames":{"min": "cromoso", "max": "crómico"}},
+    {"symbol": "Mo", "name": "Molibdeno", "oxStates": [2, 3, 4, 5, 6]},
+    {"symbol": "W", "name": "Wolframio", "oxStates": [2, 3, 4, 5, 6]},
+
+    {"symbol": "Mn", "name": "Manganeso", "oxStates": [2, 3, 4, 6, 7]},
+    {"symbol": "Tc", "name": "Tecnecio", "oxStates": [7]},
+    {"symbol": "Re", "name": "Renio", "oxStates": [7]},
+
+    {"symbol": "Fe", "name": "Hierro", "oxStates": [2, 3], "oxNames":{"min": "ferroso", "max": "férrico"}},
+    {"symbol": "Ru", "name": "Rutenio", "oxStates": [3, 4], "oxNames":{"min": "rutenoso", "max": "ruténico"}},
+    {"symbol": "Os", "name": "Osmio", "oxStates": [4, 6], "oxNames":{"min": "osmioso", "max": "ósmico"}},
+
+    {"symbol": "Co", "name": "Cobalto", "oxStates": [2, 3], "oxNames":{"min": "cobaltoso", "max": "cobáltico"}},
+    {"symbol": "Rh", "name": "Rodio", "oxStates": [4]},
+    {"symbol": "Ir", "name": "Iridio", "oxStates": [4]},
+
+    {"symbol": "Ni", "name": "Niquel", "oxStates": [2, 3], "oxNames":{"min": "niqueloso", "max": "niquélico"}},
+    {"symbol": "Pd", "name": "Paladio", "oxStates": [4]},
+    {"symbol": "Pt", "name": "Platino", "oxStates": [2, 4], "oxNames":{"min": "platinoso", "max": "platiníco"}},
+
+    {"symbol": "Cu", "name": "Cobre", "oxStates": [1, 2], "oxNames":{"min": "cuproso", "max": "cúprico"}},
+    {"symbol": "Ag", "name": "Plata", "oxStates": [1]},
+    {"symbol": "Au", "name": "Oro", "oxStates": [1, 3], "oxNames":{"min": "auroso", "max": "áurico"}},
+
+    {"symbol": "Zn", "name": "Zinc", "oxStates": [2]},
+    {"symbol": "Cd", "name": "Cadmio", "oxStates": [2]},
+    {"symbol": "Hg", "name": "Mercurio", "oxStates": [1, 2], "oxNames":{"min": "mercuroso", "max": "mercúrico"}}
+]
