@@ -9,6 +9,10 @@ on:
   pull_request:
     branches: [ "main" ]
 
+defaults:
+  run:
+    working-directory: ./generador-quimica
+
 jobs:
   build:
 
@@ -25,7 +29,6 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    - working-directory: ./generador-quimica
     - run: npm install --global yarn
     - run: yarn
     - run: yarn build
