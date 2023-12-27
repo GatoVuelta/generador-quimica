@@ -1,12 +1,9 @@
 import $ from 'jquery';
-import { DateTime } from 'luxon';
-import tippy from 'tippy.js';
 import UIkit from 'uikit';
 
 import 'markdown-it-latex/dist/index.css'
 import markdownItLatex from 'markdown-it-latex'
 
-window.DateTime = DateTime;
 window.$ = $;
 
 import markdownIt from 'markdown-it'
